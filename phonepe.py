@@ -13,7 +13,7 @@ mydb = mysql.connector.connect(
     user="root",
     port="3306",
     database="phonepe",
-    password="Luxpapa@09"
+    password="********"
 )
 cursor = mydb.cursor()
 
@@ -302,7 +302,7 @@ mydb = mysql.connector.connect(
         user="root",
         port="3306",
         database="phonepe",
-        password="Luxpapa@09"
+        password="*********"
     )
 cursor = mydb.cursor()
 
@@ -314,7 +314,7 @@ def Top_chart_1():
         user="root",
         port="3306",
         database="phonepe",
-        password="Luxpapa@09"
+        password="********"
     )
     cursor = mydb.cursor()
 
